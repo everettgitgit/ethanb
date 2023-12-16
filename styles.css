@@ -68,7 +68,7 @@ section {
   }
 
   main header {
-    background-image: url("images/background.jpeg");
+    background-image: url("background.jpeg");
     background-size: cover;
     background-position: bottom;
     border: 2px solid #000; 
