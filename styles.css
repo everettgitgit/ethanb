@@ -1,0 +1,293 @@
+
+body {
+  
+    font-family: italic,'Arial', sans-serif;
+    background-color: white; 
+    width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  }
+  
+  header {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 0;
+
+
+  }
+  
+  header h1 {
+    background-color: yellow; 
+    line-height: 2; 
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    
+  }
+  
+
+header nav ul {
+  background-color: rgb(54, 54, 54);
+  color: white;
+  line-height: 3;
+  font-size: 0.4em;
+  padding: 0.5em;
+  list-style-type: none;
+  margin: 0;
+  font-weight: bold;
+}
+
+header nav ul li {
+  display: inline;
+  padding-right: 20px;
+  text-align: center;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+
+  padding: 2%;
+}
+  
+  main {
+    color: #000; 
+    font-weight: lighter !important;
+    
+ 
+    
+
+    
+    
+  }
+
+  main header {
+    background-image: url("images/background.jpeg");
+    background-size: cover;
+    background-position: bottom;
+    border: 2px solid #000; 
+ 
+  }
+  
+  main header section {
+      width: 80%;
+      height: 200px;
+      
+      background: rgba(0, 0, 0, 0.8); 
+      display: block;
+      margin-left: auto;
+      margin-right: auto  
+      
+  }
+
+
+  
+  main header section img {
+    width: 150px;
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+  }
+  
+  main header section button {
+
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 0.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    cursor: pointer;
+  }
+
+  main header section h1,
+  main header section h2,
+  main header section h3 {
+
+    text-align: left;
+    
+
+ 
+
+  }
+  
+  main header section h1 {
+  font-size: 1.5em;
+   background: none ;
+   color: yellow;
+   line-height: 0;
+   font-weight: lighter;
+   
+  }
+  
+  main header section h2 {
+    font-size: 1em;
+    background: none ;
+    color: white;
+    font-weight: lighter;
+  }
+  
+  main header section h3 {
+    font-size: 1em;
+    background: none ;
+    color: white;
+    font-weight: lighter;
+  }
+
+
+  
+  article aside {
+    width: 340px;
+    height: 760px;
+    padding: 0;
+    margin-top: 30px;
+    float: right;
+    margin-right: 80px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+
+  }
+
+  article aside h2{
+    background-color: yellow; 
+    color: rgb(54, 54, 54);
+    padding: 20px;
+    margin: 0;
+    font-size: 1.2em;
+ 
+
+  }
+
+  article section h2{
+
+    background-color: yellow; 
+    color: rgb(54, 54, 54);
+    padding: 0px;
+    margin: 0;
+    font-size: 0.9em;
+    width: 400px;
+    height: 15px;
+    text-align: left;
+  }
+
+  article aside p{
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-size: 0.8em;
+    line-height: 1.5;
+
+    
+  }
+  
+  article aside blockquote{
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 0.8em;
+    line-height: 1.2;
+    
+
+ 
+
+  }  
+
+
+
+
+  main article section:nth-of-type(1){
+    width: 450px;
+    height: 210px;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 80px;
+
+
+
+  }
+
+
+  main article aside section{
+    border-top: 3px solid white; 
+    margin-left: 20px !important;
+    padding-top: 20px!important;
+    width: 300px !important;
+    padding-bottom: 20px !important;
+    border-left: 0 !important;
+    height: 150px !important;
+
+    
+  }  
+  main article section:nth-of-type(2){
+    width: 450px;
+    height: 210px;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 110px;
+
+
+
+  }
+
+
+
+  main article section:nth-of-type(3){
+    width: 450px;
+    height: 210px;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 80px;
+
+
+
+  }
+
+  main article section:nth-of-type(4){
+    width: 450px;
+    height: 250px;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: 110px;
+
+
+
+  }
+
+  main article section p{
+    padding: 10px;
+
+  }
+
+main footer section{
+  font-size: 0.1em;
+  width: 860px !important;
+  border-left: 0 !important;
+  border-top: 3px solid yellow;
+  margin-top: 50px !important;
+  padding-top: 10px !important;
+
+}
+
+  
+
+footer a{
+  background-color: yellow;
+}
+
+section sup  {
+  color: yellow;
+
+}
