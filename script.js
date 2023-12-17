@@ -61,8 +61,7 @@ let newContentInterest = [
     `
         <h2>Basketball</h2>
         <p class="toggleHeader">Basketball loving since primary school. My favourite <br>
-        team is Golden State Worriors. My favourite NBA stars are Step Curry and <br>
-        Labron James.</p>
+        team is Golden State Worriors. My favourite NBA stars are Step Curry and Labron James.</p>
         <img src="curry.jpg" "width="300" height="265">
         <img src="LeBron_James.jpg" width=400" height="330">
 
