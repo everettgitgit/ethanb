@@ -68,7 +68,7 @@ section {
   }
 
   main header {
-    background-image: url("background.jpeg");
+    background-image: url("images/background.jpeg");
     background-size: cover;
     background-position: bottom;
     border: 2px solid #000; 
@@ -177,17 +177,18 @@ section {
     color: rgb(54, 54, 54);
     padding: 0px;
     margin: 0;
-    font-size: 0.9em;
-    width: 400px;
-    height: 15px;
+    font-size: 1em;
+    width: 430px;
+    height: 20px;
     text-align: left;
+
   }
 
   article aside p{
     color: white;
     padding: 20px;
     margin: 0;
-    font-size: 0.8em;
+    font-size: 1em;
     line-height: 1.5;
 
     
@@ -271,22 +272,8 @@ section {
 
   }
 
-main footer section{
-  font-size: 0.1em;
-  width: 860px !important;
-  border-left: 0 !important;
-  border-top: 3px solid yellow;
-  margin-top: 50px !important;
-  padding-top: 10px !important;
 
-}
-
-  
-
-footer a{
-  background-color: yellow;
-}
-
+ 
 section sup  {
   color: yellow;
 
