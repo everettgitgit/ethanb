@@ -64,7 +64,7 @@ let newContentInterest = [
         team is Golden State Worriors. My favourite NBA stars are Step Curry and <br>
         Labron James.</p>
         <img src="curry.jpg" "width="300" height="265">
-        <img src="LeBron_James.jpg" width=400" height="500">
+        <img src="LeBron_James.jpg" width=400" height="340">
 
  
     `
