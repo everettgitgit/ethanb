@@ -1,9 +1,6 @@
-// Function to set up event listeners
 function setupEventListeners() {
-    // Select the elements with the class 'toggleHeader'
     let elements = document.querySelectorAll('.toggleHeader');
 
-    // Add event listeners to each element
     elements.forEach((element) => {
         let originalBackgroundColor = window.getComputedStyle(element).backgroundColor;
 
@@ -17,21 +14,16 @@ function setupEventListeners() {
     });
 }
 
-// Set up event listeners at the start
 setupEventListeners();
 
-// Select the buttons
 let button = document.getElementById('educationButton');
 let workingExperienceButton = document.getElementById('workingExperienceButton');
 let interestButton = document.getElementById('interestButton');
-
-// Select all sections within the article
 let sections = document.querySelectorAll('article > section');
 
 // Store the original content of each section
 let originalContent = Array.from(sections).map(section => section.innerHTML);
 
-// Define the new content for each section
 let newContent = [
     `
         <h2>The Hong Kong University of Science and Technology</h2>
@@ -58,7 +50,6 @@ let newContent = [
     `,
 ];
 
-// Define the new content for each section
 let newContentInterest = [
     `
         <h2>Quantitative research</h2>
@@ -76,57 +67,40 @@ let newContentInterest = [
         <img src="LeBron_James.jpg" width=400" height="500">
 
  
-    `,
-    // Add more content here for each section...
+    `
+    
 ];
 
-// Add click event listener to the button
 button.addEventListener('click', function() {
 
     
     for (let i = 0; i < 2; i++) {
-        // Replace the content of the section with the corresponding new content
         sections[i].innerHTML = newContent[i];
-
-        // Set up event listeners for the new elements
         setupEventListeners();
     }
 
-    // Hide the fourth section and beyond
     for (let i = 2; i < sections.length; i++) {
         sections[i].style.display = 'none';
     }
 });
 
-// Add click event listener to the button
 interestButton.addEventListener('click', function() {
 
     
     for (let i = 0; i < 2; i++) {
-        // Replace the content of the section with the corresponding new content
         sections[i].innerHTML = newContentInterest[i];
-
-        // Set up event listeners for the new elements
         setupEventListeners();
     }
 
-    // Hide the fourth section and beyond
     for (let i = 2; i < sections.length; i++) {
         sections[i].style.display = 'none';
     }
 });
 
-// Add click event listener to the 'Working Experience' button
 workingExperienceButton.addEventListener('click', function() {
-    // Loop through each section
     sections.forEach((section, index) => {
-        // Change the content of the section back to the original content
         section.innerHTML = originalContent[index];
-
-        // Set up event listeners for the new elements
         setupEventListeners();
-        
-        // Show the section
         section.style.display = 'block';
     });
 });
